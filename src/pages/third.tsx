@@ -28,10 +28,10 @@ export default function FirstPost() {
             <ul>
                 <li style={{ listStyleType: 'disc' }}>What do you do to relax?</li>
                 <li style={{ listStyleType: 'disc' }}>What book are you reading right now?</li>
-                <li style={{ listStyleType: 'disc' }}>What's your favorite thing about your hometown?</li>
+                <li style={{ listStyleType: 'disc' }}>What&aposs your favorite thing about your hometown?</li>
                 <li style={{ listStyleType: 'disc' }}>Do you have dreams?</li>
             </ul>
-            <h1>Don't feel nervous. Just talk freely and casually!!</h1>
+            <h1>Don&apos;t feel nervous. Just talk freely and casually!!</h1>
             <h1>
                 <Link href="/">
                     <h1>Back to home</h1>
