@@ -79,7 +79,7 @@ export default function FirstPost() {
             <div className="max-w-4xl w-full mb-8">
 
                 <p className="text-lg">
-                    In this game, each person will be given a word, and the others must describe it without mentioning it directly. If you guess the word right, you succeed! If you don&apos;t know the meaning of a word, you can just look it up.
+                    In this game, each person will be given a word, and the others must describe it without mentioning it directly. If you guess the word right, you succeed!
                 </p>
             </div>
             <div className="mb-8">
