@@ -24,7 +24,7 @@ export default function FirstPost() {
             </div>
 
 
-            <h1>Feel free to use of of these expressions when you get stuck!!!</h1>
+            <h1>Feel free to use one of these expressions when you get stuck!!!</h1>
             <ul>
                 <li style={{ listStyleType: 'disc' }}>I enjoyed/had a whale of a time/had a blast doing…</li>
                 <li style={{ listStyleType: 'disc' }}>It never fails to amaze me…</li>
@@ -33,13 +33,6 @@ export default function FirstPost() {
                 <li style={{ listStyleType: 'disc' }}>I should have done…</li>
                 <li style={{ listStyleType: 'disc' }}>It was a memorable experience to…</li>
             </ul>
-
-            <h1>
-                <Link href="/">
-                    <h1 className="text-blue-500 hover:underline">Back to home</h1>
-                </Link>
-            </h1>
-
 
         </main>
     )

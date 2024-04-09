@@ -39,11 +39,6 @@ export default function FirstPost() {
                 </ul>
             </div>
 
-            <Link href="/">
-                <h1 className="text-blue-500 hover:underline">Back to home</h1>
-            </Link>
-
-
         </main>
     )
 }

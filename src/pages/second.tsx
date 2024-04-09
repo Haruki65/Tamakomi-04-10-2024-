@@ -28,7 +28,19 @@ const nouns = [
     "fish",
     "boats",
     "islands",
-    "sharks"
+    "sharks",
+    "USJ",
+    "DJ",
+    "laptops",
+    "umbrellas",
+    "waterfall",
+    "frogs",
+    "paradox",
+    "nostalgia",
+    "serendipity",
+    "know-how",
+    "initiative",
+    "doppelganger"
 ];
 
 function getRandomNoun() {
@@ -46,9 +58,9 @@ export default function FirstPost() {
 
     return (
         <main
-            className={`flex flex-col items-center p-24 ${inter.className}`}
+            className={`flex flex-col items-center justify-between p-24 ${inter.className}`}
         >
-            <div className="z-10 max-w-5xl w-full items-center font-mono text-sm lg:flex">
+            <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-3 pt-3 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 text-3xl">
                     2. Word Guessing Game&nbsp;
                 </p>
@@ -67,18 +79,15 @@ export default function FirstPost() {
             <div className="max-w-4xl w-full mb-8">
 
                 <p className="text-lg">
-                    In this game, each person will be given a word, and the others must describe it without mentioning it directly. If you guess the word right, you succeed!
+                    In this game, each person will be given a word, and the others must describe it without mentioning it directly. If you guess the word right, you succeed! If you don&apos;t know the meaning of a word, you can just look it up.
                 </p>
             </div>
             <div className="mb-8">
-                <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg" onClick={generateRandomNoun}>Generate</button>
+                <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg" onClick={generateRandomNoun}>Generate a word</button>
             </div>
             {randomNoun && (
                 <h2 className="text-4xl mb-8">{randomNoun}</h2>
             )}
-            <Link href="/">
-                <h1 className="text-blue-500 hover:underline">Back to home</h1>
-            </Link>
 
 
         </main>
