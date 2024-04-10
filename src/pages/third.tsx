@@ -33,12 +33,18 @@ export default function FirstPost() {
                 <br></br>
                 <ul>
                     <li style={{ listStyleType: 'disc' }}>What do you do to relax?</li>
-                    <li style={{ listStyleType: 'disc' }}>What book are you reading right now?</li>
-                    <li style={{ listStyleType: 'disc' }}>What&apos;s your favorite thing about your hometown?</li>
                     <li style={{ listStyleType: 'disc' }}>Do you have dreams?</li>
+                    <li style={{ listStyleType: 'disc' }}>What book are you reading right now?</li>
+                    <li style={{ listStyleType: 'disc' }}>Who do you most admire, and how has that impacted the way you live your life?</li>
+                    <li style={{ listStyleType: 'disc' }}>What&apos;s your favorite thing about your hometown?</li>
+                    <li style={{ listStyleType: 'disc' }}>How can we better practice sustainability as a couple?</li>
+                    <li style={{ listStyleType: 'disc' }}>Have you ever done something you really regret?</li>
+                    <li style={{ listStyleType: 'disc' }}>What&apos;s something you&apos;ve never told anyone?</li>
+                    <li style={{ listStyleType: 'disc' }}>If you could travel back in time, which part of your life would you go back to?</li>
+                    <li style={{ listStyleType: 'disc' }}>What is your ideal English conversation club like?</li>
                 </ul>
             </div>
-
+            <div style={{ height: '100px' }}></div>
         </main>
     )
 }

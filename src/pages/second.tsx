@@ -88,7 +88,7 @@ export default function FirstPost() {
             {randomNoun && (
                 <h2 className="text-4xl mb-8">{randomNoun}</h2>
             )}
-
+            <div style={{ height: '100px' }}></div>
 
         </main>
     )
